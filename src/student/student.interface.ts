@@ -11,6 +11,6 @@ export interface Merchant{
     category: string,
     comissionpercentage:  string,
     activefrom: string,
-    paymentOption: string,
+    paymentOption: string[],
     criticalAccount: []
 }

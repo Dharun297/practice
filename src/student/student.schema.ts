@@ -10,8 +10,8 @@ export const DharunSchema = new mongoose.Schema({
     notes: String,
     businesstype: String,
     category: String,
-    comissionpercentage:  String,
+    comissionpercentage: String,
     activefrom: String,
-    paymentOption: String,
-    criticalAccount: []
+    paymentOption: [String],
+    criticalAccount: [],
 })
